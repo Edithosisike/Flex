@@ -1,0 +1,128 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing:border-box;
+  font-family: "[Poppins] (https://fonts.google.com/specimen/Poppins)";
+}
+body{
+font-size: 16px;
+display:flex;
+}
+main{
+  background-color: hsl(0, 100%, 74%);
+  width:100%;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding:70px;
+}
+/* container one and two */
+.tan, .con{
+  width: 50%;
+  padding: 15px;
+}
+/* claim your trail */
+button{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  background-color:hsl(154, 59%, 51%);
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+}
+/* for terms and services */
+a:hover{
+color:  hsl(249, 10%, 26%);
+}
+/* paragraph for terms and condition */
+#click{
+  color:hsl(246, 25%, 77%);
+  font-size: 10px;
+  padding: 15px;
+}
+
+/* paragraph for the first container in form */
+#days{
+ background-color: hsl(248, 32%, 49%);
+ padding: 10px;
+color: white;
+ text-align: center; 
+ margin-bottom: 15px;
+}
+/* container for form */
+.con{
+  width: 400px;
+  
+}
+/* decoration for terms and services */
+a{
+  color: red;
+  text-decoration: none;
+}
+/* container for form input */
+.con input{
+  margin: 10px;
+  border: 1px solid hsla(249, 10%, 26%, 0.288);
+  border-radius: 5px;
+}
+/* input placeholder */
+.fon input{
+  width: 300px;
+  padding: 10px;
+  color: rgba(62, 60, 73, 0.274); 
+}
+/* container for input  */
+.fon{
+  background-color: white;
+  padding:10px;
+  border-radius:10px;
+  text-align: center;
+}
+#free p{
+  border-radius: 5px;
+}
+/* h1 and paragraph for container one */
+h1, .p1{
+  color:white ;
+  padding-right: 40px;
+  padding-top: 20px;
+  
+}
+h1{
+  font-size: 40px;
+}
+#try{
+  padding: 5px;
+  border: 20px;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0px 2px 0px hsla(154, 74%, 15%, 0.548);
+}
+/* container for main */
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (width:1440){
+.row{
+  flex-direction: column;
+}}
+@media screen and (width:375){
+  .tan{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    width: 200px;
+  }
+
+
+
+  
+}
